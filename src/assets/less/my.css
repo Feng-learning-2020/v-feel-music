@@ -1,0 +1,162 @@
+.my {
+  padding-bottom: 80px;
+  background-color: #f2f2f2;
+}
+.my /deep/ .van-search {
+  border-radius: 23px;
+  overflow: hidden;
+}
+.my .my-information {
+  width: 100%;
+  height: 64px;
+  overflow: hidden;
+  padding: 30px 0 0 ;
+}
+.my .my-information .my-information-box {
+  padding: 0 20px;
+  overflow: hidden;
+}
+.my .my-information .my-img-box {
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.my .my-information .my-img-box .auto-img {
+  width: 100%;
+  display: block;
+}
+.my .my-information .my-name-lv-icon {
+  padding-left: 12px;
+  width: calc(100% - 64px);
+  height: 64px;
+  box-sizing: border-box;
+  position: relative;
+}
+.my .my-information .my-name-lv-icon .my-name {
+  height: 30px;
+  margin-top: 5px;
+  color: #333;
+  font-size: 16px;
+  line-height: 30px;
+}
+.my .my-information .my-name-lv-icon .my-lv {
+  width: 34px;
+  height: 14px;
+  background-color: #ff0033;
+  margin-top: 4px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  border-radius: 7px;
+}
+.my .my-information .my-name-lv-icon .my-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 64px;
+  height: 64px;
+}
+.my .my-information .my-name-lv-icon .my-icon /deep/ .van-icon {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.my .my-item-box {
+  margin: 32px 15px;
+  padding: 8px 16px;
+  height: 86px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+}
+.my .my-item-box > div {
+  flex: 1;
+}
+.my .my-item-box .my-item .my-item-icon {
+  margin-left: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 50px;
+}
+.my .my-item-box .my-item .my-item-icon /deep/ .van-icon {
+  margin-top: 7px;
+}
+.my .my-item-box .my-item .my-item-title {
+  height: 20px;
+  color: #777;
+  text-align: center;
+  line-height: 20px;
+}
+.my .my-playlist .playlist-create-collect {
+  position: relative;
+  margin-top: 8px;
+}
+.my .my-playlist .playlist-create-collect /deep/ .van-tabs__nav {
+  background-color: #f2f2f2;
+}
+.my .my-playlist .playlist-create-collect .van-tabs__nav::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 14px;
+  width: 1px;
+  height: 16px;
+  background-color: #ccc;
+  margin-left: -0.5px;
+}
+.my .my-playlist .item-box {
+  padding-bottom: 1px;
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.my .my-playlist .item-box .item-title-set {
+  padding: 12px 15px;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.my .my-playlist .item-box .item-set {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+}
+.my .my-playlist .item-box .auto-img {
+  width: 100%;
+  display: block;
+}
+.my .my-playlist .item-box .item-content {
+  margin: 0 12px 15px;
+  height: 60px;
+  overflow: hidden;
+}
+.my .my-playlist .item-box .item-content .content-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.my .my-playlist .item-box .item-content .content-name-count {
+  padding: 0px 8px;
+  width: calc(100% - 76px);
+  height: 60px;
+}
+.my .my-playlist .item-box .item-content .content-name {
+  padding: 4px 0;
+  color: #333;
+  font-size: 16px;
+}
+.my .my-playlist .item-box .item-content .content-count {
+  color: #999;
+  margin-top: 8px;
+}

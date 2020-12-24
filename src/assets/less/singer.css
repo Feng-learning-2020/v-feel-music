@@ -1,0 +1,325 @@
+.singer {
+  background-color: #f2f2f2;
+}
+.singer .auto-img {
+  width: 100%;
+  display: block;
+}
+.singer /deep/ .van-nav-bar .van-icon {
+  color: #ff0033;
+}
+.singer /deep/ .van-nav-bar__text {
+  color: #ff0033;
+}
+.singer .player {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  animation: cdplay 20s linear infinite;
+}
+.singer .paused {
+  animation-play-state: paused;
+}
+.singer .running {
+  animation-play-state: running;
+}
+@keyframes cdplay {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.singer .bg-content-box {
+  height: 305px;
+  overflow: hidden;
+  position: relative;
+  margin-top: -46px;
+}
+.singer .bg-content-box .content-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+}
+.singer .bg-content-box .content-box .name {
+  font-size: 20px;
+}
+.singer .bg-content-box .content-box .ranking {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.singer .bg-content-box .content-box .des {
+  margin-top: 10px;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .bg-content-box .content-box .des-detail-box {
+  width: 200px;
+  padding: 8px;
+  margin: 0;
+  color: #999;
+  font-size: 12px;
+}
+.singer .bg-content-box .content-box /deep/ .van-popup--center {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.singer .bg-content-box .like {
+  position: absolute;
+  right: 12px;
+  bottom: 60px;
+  width: 46px;
+  height: 24px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #ff0033;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 12px;
+}
+.singer .singer-info {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: -8px;
+}
+.singer .singer-info /deep/ .van-tabs--line .van-tabs__wrap {
+  height: 36px;
+  border-bottom: 1px solid #eee;
+}
+.singer .singer-info .item-box {
+  padding: 12px;
+}
+.singer .singer-info .item-des {
+  font-size: 16px;
+}
+.singer .singer-info .item-main {
+  margin: 12px 0;
+  height: 50px;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .number {
+  width: 16px;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 50px;
+  color: #999;
+}
+.singer .singer-info .item-main .main {
+  padding: 0 10px;
+  width: calc(100% - 36px);
+  height: 50px;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main .name-from {
+  max-width: 290px;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main .name-from .name {
+  font-size: 16px;
+  color: #333;
+  margin-top: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main .name-from .from {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main .option {
+  width: 18px;
+  height: 50px;
+  z-index: 99;
+}
+.singer .singer-info .item-main .main .option-icon {
+  margin-top: 16px;
+}
+.singer .singer-info .item-main .item-img-box {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+}
+.singer .singer-info .item-main .main2 {
+  padding: 0 10px;
+  width: calc(100% - 70px);
+  height: 50px;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main2 .name-time {
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main2 .name-time .name {
+  font-size: 16px;
+  color: #333;
+  margin-top: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .singer-info .item-main .main2 .name-time .time {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .singer-info .item-main3 {
+  margin: 12px 0;
+  height: 70px;
+  overflow: hidden;
+}
+.singer .singer-info .item-main3 .main3-img-box {
+  width: 120px;
+  height: 70px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.singer .singer-info .item-main3 .main3-img-box .mv-play-count {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  height: 14px;
+  font-size: 12px;
+  overflow: hidden;
+  line-height: 14px;
+}
+.singer .singer-info .item-main3 .main3-img-box .mv-play-count .count-img {
+  width: 14px;
+  height: 14px;
+}
+.singer .singer-info .item-main3 .main3-img-box .mv-play-count .count-img .play-img {
+  width: 100%;
+  display: block;
+}
+.singer .singer-info .item-main3 .main3-img-box .mv-play-count .count {
+  color: #fff;
+  height: 14px;
+  margin-left: 1px;
+}
+.singer .singer-info .item-main3 .main3-img-box .auto-img {
+  margin-top: -10px;
+}
+.singer .singer-info .item-main3 .main3 {
+  padding: 15px 8px;
+  width: calc(100% - 136px);
+  height: 70px;
+}
+.singer .singer-info .item-main3 .main3 .main3-name {
+  color: #333;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .singer-info .item-main3 .main3 .main3-time {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.singer .img-name-singer-box {
+  padding: 10px 15px;
+  height: 45px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+.singer .img-name-singer-box .img-box {
+  width: 45px;
+  height: 45px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.singer .img-name-singer-box .name-singer-box {
+  margin-top: 5px;
+  padding-left: 10px;
+  width: calc(100% - 55px);
+  height: 45px;
+}
+.singer .img-name-singer-box .name-singer-box .name {
+  color: #333;
+  font-size: 14px;
+}
+.singer .img-name-singer-box .name-singer-box .singer-box {
+  color: #999;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .select-item {
+  padding: 15px 20px;
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 19px;
+}
+.singer .select-item .icon-box {
+  width: 19px;
+  height: 19px;
+}
+.singer .select-item .title {
+  margin-left: 8px;
+}
+.singer .select-item .content {
+  margin-left: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.singer .select-item:active {
+  background-color: #ddd;
+}
+.singer .singer-choose-title {
+  padding-left: 18px;
+  height: 32px;
+  color: #999;
+  font-size: 12px;
+  background-color: #eee;
+  line-height: 32px;
+}
+.singer .choose-item {
+  padding: 5px 12px;
+  height: 50px;
+  overflow: hidden;
+}
+.singer .choose-item .item-img {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.singer .choose-item .item-name {
+  padding-left: 15px;
+  width: calc(100% - 65px);
+  height: 50px;
+  font-size: 14px;
+  color: #333;
+  line-height: 50px;
+}

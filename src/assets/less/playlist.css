@@ -1,0 +1,251 @@
+.play-list {
+  width: 100%;
+  background-color: #f2f2f2;
+  position: absolute;
+  z-index: -2;
+}
+.play-list .auto-img {
+  width: 100%;
+  display: block;
+}
+.play-list /deep/ .van-nav-bar .van-icon {
+  color: #ff0033;
+}
+.play-list /deep/ .van-nav-bar__text {
+  color: #ff0033;
+}
+.play-list .player {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  animation: cdplay 20s linear infinite;
+}
+.play-list .paused {
+  animation-play-state: paused;
+}
+.play-list .running {
+  animation-play-state: running;
+}
+@keyframes cdplay {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.play-list .album-content {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.play-list .album-content .album-img {
+  margin: 40px 15px;
+  width: 120px;
+  height: 120px;
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.play-list .album-content .album-content-box {
+  padding-right: 20px;
+  width: calc(100% - 170px);
+  height: 120px;
+  margin-top: 40px;
+  color: #fff;
+}
+.play-list .album-content .album-content-box .album-name {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .album-content .album-content-box .album-singer {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.play-list .album-content .album-content-box .album-time {
+  margin-top: 36px;
+  font-size: 12px;
+}
+.play-list .album-content .album-content-box .album-des {
+  margin-top: 4px;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .album-content .album-content-box .des-detail-box {
+  width: 200px;
+  max-height: 500px;
+  padding: 8px;
+  margin: 0;
+  color: #999;
+  font-size: 12px;
+  overflow: auto;
+}
+.play-list .album-content .album-content-box /deep/ .van-popup--center {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.play-list .album-content-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: blur(7px);
+  z-index: -1;
+  background-size: cover;
+}
+.play-list .music-list {
+  overflow: hidden;
+}
+.play-list .music-list .list-title {
+  color: #999;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+.play-list .music-list .list {
+  overflow: hidden;
+  background-color: #fff;
+}
+.play-list .music-list .item {
+  margin: 12px 0;
+  padding: 0 12px;
+  height: 50px;
+  overflow: hidden;
+}
+.play-list .music-list .item .number {
+  width: 16px;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 50px;
+  color: #999;
+}
+.play-list .music-list .item .main {
+  padding: 0 10px;
+  width: calc(100% - 36px);
+  height: 50px;
+  overflow: hidden;
+}
+.play-list .music-list .item .main .name-from {
+  max-width: 290px;
+  overflow: hidden;
+}
+.play-list .music-list .item .main .name-from .name {
+  font-size: 16px;
+  color: #333;
+  margin-top: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .music-list .item .main .name-from .from {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .music-list .item .main .option {
+  width: 18px;
+  height: 50px;
+  z-index: 99;
+}
+.play-list .music-list .item .main .option-icon {
+  margin-top: 16px;
+}
+.play-list .img-name-singer-box {
+  padding: 10px 15px;
+  height: 45px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+.play-list .img-name-singer-box .img-box {
+  width: 45px;
+  height: 45px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.play-list .img-name-singer-box .name-singer-box {
+  margin-top: 5px;
+  padding-left: 10px;
+  width: calc(100% - 55px);
+  height: 45px;
+}
+.play-list .img-name-singer-box .name-singer-box .name {
+  color: #333;
+  font-size: 14px;
+}
+.play-list .img-name-singer-box .name-singer-box .singer-box {
+  color: #999;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .select-item {
+  padding: 15px 20px;
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 19px;
+}
+.play-list .select-item .icon-box {
+  width: 19px;
+  height: 19px;
+}
+.play-list .select-item .title {
+  margin-left: 8px;
+}
+.play-list .select-item .content {
+  margin-left: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.play-list .select-item:active {
+  background-color: #ddd;
+}
+.play-list .singer-choose-title {
+  padding-left: 18px;
+  height: 32px;
+  color: #999;
+  font-size: 12px;
+  background-color: #eee;
+  line-height: 32px;
+}
+.play-list .choose-item {
+  padding: 5px 12px;
+  height: 50px;
+  overflow: hidden;
+}
+.play-list .choose-item .item-img {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.play-list .choose-item .item-name {
+  padding-left: 15px;
+  width: calc(100% - 65px);
+  height: 50px;
+  font-size: 14px;
+  color: #333;
+  line-height: 50px;
+}

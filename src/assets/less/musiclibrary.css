@@ -1,0 +1,115 @@
+.musiclibrary {
+  padding-bottom: 80px;
+}
+.musiclibrary /deep/ .van-search {
+  border-radius: 23px;
+  overflow: hidden;
+}
+.musiclibrary .popular-singers {
+  height: 140px;
+  margin: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.musiclibrary .popular-singers .title-more {
+  height: 21px;
+  padding: 8px 10px;
+}
+.musiclibrary .popular-singers .title-more .title {
+  font-size: 16px;
+}
+.musiclibrary .popular-singers .title-more .more {
+  height: 22px;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.musiclibrary .popular-singers .hidden {
+  overflow: hidden;
+}
+.musiclibrary .popular-singers .singer-box {
+  width: 760px;
+  height: 100px;
+}
+.musiclibrary .popular-singers .singer-box .singer-item {
+  width: 56px;
+  height: 84px;
+  margin: 8px 12px 8px 8px;
+}
+.musiclibrary .popular-singers .singer-box .singer-item .img-box {
+  height: 56px;
+  border-radius: 28px;
+  overflow: hidden;
+}
+.musiclibrary .popular-singers .singer-box .singer-item .img-box > img {
+  width: 100%;
+  display: block;
+}
+.musiclibrary .popular-singers .singer-box .singer-item .singer-name {
+  height: 28px;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: center;
+}
+.musiclibrary .recommend-music {
+  margin: 12px;
+}
+.musiclibrary .recommend-music .title-more {
+  height: 22.5px;
+  padding: 6px;
+}
+.musiclibrary .recommend-music .title-more .title {
+  font-size: 17px;
+}
+.musiclibrary .recommend-music .title-more .title > span {
+  font-size: 12px;
+  color: #333;
+}
+.musiclibrary .recommend-music .title-more .more {
+  height: 22px;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.musiclibrary .recommend-music .Slide-song-list {
+  margin: 0 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.musiclibrary .recommend-music .Slide-song-box {
+  width: 300%;
+}
+.musiclibrary .recommend-album {
+  margin: 12px;
+}
+.musiclibrary .recommend-album .title-more {
+  height: 22.5px;
+  padding: 6px;
+}
+.musiclibrary .recommend-album .title-more .title {
+  font-size: 17px;
+}
+.musiclibrary .recommend-album .title-more .title > span {
+  font-size: 12px;
+  color: #333;
+}
+.musiclibrary .recommend-album .title-more .more {
+  height: 22px;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.musiclibrary .recommend-album .Slide-song-list {
+  margin: 0 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.musiclibrary .recommend-album .Slide-song-box {
+  width: 300%;
+}
+.musiclibrary .recommend-album /deep/ .musicitem .song-play-button {
+  visibility: hidden;
+}

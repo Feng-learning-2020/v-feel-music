@@ -1,0 +1,111 @@
+.singerlist {
+  background-color: #f2f2f2;
+}
+.singerlist .auto-img {
+  width: 100%;
+  display: block;
+}
+.singerlist .paused {
+  animation-play-state: paused !important;
+}
+.singerlist .running {
+  animation-play-state: running !important;
+}
+.singerlist /deep/ .van-nav-bar .van-icon {
+  color: #ff0033;
+}
+.singerlist /deep/ .van-nav-bar__text {
+  color: #ff0033;
+}
+.singerlist .player {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  animation: cdplay 20s linear infinite;
+}
+@keyframes cdplay {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.singerlist .classify-box {
+  padding: 15px 12px;
+}
+.singerlist .classify-box .title {
+  height: 38px;
+  color: #333;
+  font-size: 18px;
+  line-height: 38px;
+}
+.singerlist .classify-box .classify {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.singerlist .classify-box .classify .type {
+  overflow: hidden;
+}
+.singerlist .classify-box .classify .area {
+  margin: 10px 0;
+  overflow: hidden;
+}
+.singerlist .classify-box .classify .item {
+  margin: 0 6px;
+  width: 40px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  color: #444;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.singerlist .classify-box .classify .active {
+  color: #fff;
+  background-color: #ff0033;
+}
+.singerlist .singer-list-box {
+  padding: 0 12px 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.singerlist .singer-list-box .title {
+  margin: 8px 0;
+  color: #999;
+  font-size: 12px;
+}
+.singerlist .singer-list-box .item {
+  margin: 10px 0;
+  height: 60px;
+  overflow: hidden;
+}
+.singerlist .singer-list-box .item .item-img {
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.singerlist .singer-list-box .item .name-size {
+  padding-left: 8px;
+  width: calc(100% - 68px);
+  height: 60px;
+}
+.singerlist .singer-list-box .item .name-size .name {
+  margin-top: 9px;
+  color: #333;
+  font-size: 16px;
+}
+.singerlist .singer-list-box .item .name-size .size {
+  margin-top: 5px;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+}
+.singerlist .singer-list-box .item .name-size .album-size {
+  margin-left: 10px;
+}
